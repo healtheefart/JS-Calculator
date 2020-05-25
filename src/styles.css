@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+.calculator {
+  width: 500px;
+  height: 400px;
+  padding-top: 100px;
+  border: none;
+  border-radius: 100px;
+  background-color: black;
+}
+.calculator button {
+  width: 100px;
+  background-color: #414141;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.calculator button:active {
+  background-color: #383838;
+}
+.calculator #CButton {
+  background-color: #aaaaaa;
+}
+.calculator #CButton:active {
+  background-color: #868686;
+}
+.calculator #plusButton,
+#minusButton,
+#multiplyButton,
+#devideButton {
+  background-color: #ff7f00;
+}
+.calculator #plusButton:active {
+  background-color: #d66b00;
+}
+.calculator #minusButton:active {
+  background-color: #d66b00;
+}
+.calculator #multiplyButton:active {
+  background-color: #d66b00;
+}
+.calculator #devideButton:active {
+  background-color: #d66b00;
+}
+.view {
+  padding: 0px 15px;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+}
